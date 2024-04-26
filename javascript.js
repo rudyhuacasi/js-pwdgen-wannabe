@@ -9,5 +9,6 @@ const userAge = '21';
 const myPerson= userName + userLastname + userFavoritecolor + userAge; 
 document.getElementById('no-cog-co').innerHTML = myPerson;
 //Bonus 1: visualizzate le informazioni anche nella console del browser,
+console .log(myPerson);
 //Bonus 2: provate a generare un numero casuale con Javascript,
 
