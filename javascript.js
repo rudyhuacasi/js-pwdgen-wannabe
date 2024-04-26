@@ -11,4 +11,5 @@ document.getElementById('no-cog-co').innerHTML = myPerson;
 //Bonus 1: visualizzate le informazioni anche nella console del browser,
 console .log(myPerson);
 //Bonus 2: provate a generare un numero casuale con Javascript,
-
+const casuale = Math.floor(Math.random()*100+1)
+console .log(casuale)
